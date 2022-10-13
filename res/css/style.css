@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
+#counter{
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+}
+#cookie{
+    max-width: 240px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    transition: .2s ease;
+    cursor: pointer;
+}
+body{
+    background: url("../img/vsgif_com__.2381117.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+button{
+    border: none;
+    font-size: 25px;
+    display: table;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.521)
+
+}
+
+#cookie:hover{
+    transform:  scale(1.1);
+
+}
+button:hover{
+    transform: scale(1.1)
+}
